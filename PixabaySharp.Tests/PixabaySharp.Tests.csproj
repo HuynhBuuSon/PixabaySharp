@@ -61,9 +61,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PixabaySharp\PixabaySharp.csproj">
+    <ProjectReference Include="..\PixabaySharp\PixabayDotnet.csproj">
       <Project>{8e24fe8a-35ee-4452-96ed-a26b5f9120db}</Project>
-      <Name>PixabaySharp</Name>
+      <Name>PixabayDotnet</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

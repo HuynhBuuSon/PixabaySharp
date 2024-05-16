@@ -30,5 +30,11 @@ namespace PixabaySharp.Models
         /// </summary>
         [JsonProperty("width")]
         public long Width { get; set; }
+
+        /// <summary>
+        /// Thumbnail image for this video item
+        /// </summary>
+        [JsonProperty("thumbnail")]
+        public string Thumbnail { get; set; }
     }
 }
