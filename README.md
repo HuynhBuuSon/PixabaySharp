@@ -1,5 +1,6 @@
 # PixabaySharp
-This is an unofficial C# / .NET API Wrapper written for .NET Standard 1.2.
+This is an unofficial C# / .NET API Wrapper written for .NET Standard 2.0.
+Clone from Thomas Pentenrieder 2017
 
 ## Compatible with
 - .NET Core 
@@ -17,11 +18,11 @@ This is an unofficial C# / .NET API Wrapper written for .NET Standard 1.2.
 - Create a free [Pixabay Account](https://pixabay.com/en/accounts/register/)
 - Find your API key here: https://pixabay.com/api/docs/#api_key
 
-**Installing PixabaySharp from NuGet**
+**Installing PixabayDotnet from NuGet**
 
-- `Install-Package PixabaySharp`
+- `Install-Package PixabayDotnet`
 
-**Using the PixabaySharp client**
+**Using the PixabayDotnet client**
 
 ```csharp
 var client = new PixabaySharpClient("apikey");
