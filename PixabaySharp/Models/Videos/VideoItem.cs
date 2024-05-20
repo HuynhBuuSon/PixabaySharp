@@ -12,5 +12,11 @@ namespace PixabaySharp.Models
         /// </summary>
         [JsonProperty("videos")]
         public Videos Videos { get; set; }
+        /// <summary>
+        /// The duration of the video in seconds.
+        /// </summary>
+        [JsonProperty("duration")]
+        public int Duration { get; set; }
+
     }
 }
